@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONCLUSÃO DE OBRAS</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <!-- INICIO DA TABELA -->
+  <table class="MINHA TABELA" border="1">
+    <thead>
+        <tr>
+            <th>INFORMAÇÕES TECNICAS</th>
+            <th>DADOS DA LIGAÇÃO</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>NOTA/PEP DA OBRA:</td>
+            <td><input type="text" name="linha1_coluna2"></td>
+        </tr>
+        <tr>
+            <td>NOME DO CLIENTE:</td>
+            <td><input type="text" name="linha2_coluna2"></td>
+        </tr>
+        <tr>
+            <td>FASES LIGADAS:</td>
+            <td><input type="text" name="linha3_coluna2"></td>
+        </tr>
+        <tr>
+            <td>DATA DE ENERGIZAÇÃO:</td>
+            <td><input type="text" name="linha18_coluna2"></td>
+        </tr>
+        <tr>
+          <td>MEDIDOR ANTERIOR:</td>
+          <td><input type="text" name="linha1_coluna2"></td>
+      </tr>
+      <tr>
+          <td>MEDIDOR INSTALADO:</td>
+          <td><input type="text" name="linha2_coluna2"></td>
+      </tr>
+      <tr>
+          <td>MEDIDOR POSTERIOR:</td>
+          <td><input type="text" name="linha3_coluna2"></td>
+      </tr>
+      <tr>
+          <td>Nº DO POSTE:</td>
+          <td><input type="text" name="linha18_coluna2"></td>
+      </tr>
+      <tr>
+        <td>Nº DO COMPONENTE:</td>
+        <td><input type="text" name="linha1_coluna2"></td>
+    </tr>
+    <tr>
+      <td>POSSUI PADRÃO:</td>
+      <td><input type="text" name="linha3_coluna2"></td>
+    </tr>
+    <tr>
+        <td>PEP DE MEDIÇÃO:</td>
+        <td><input type="text" name="linha2_coluna2"></td>
+    </tr>
+    <tr>
+      <td>RESERVA DE MEDIÇÃO:</td>
+      <td><input type="text" name="linha2_coluna2"></td>
+  </tr>
+    <tr>
+        <td>PEP DE ODS (SE HOUVER):</td>
+        <td><input type="text" name="linha3_coluna2"></td>
+    </tr>
+    <tr>
+        <td>RESERVA DE ODS:</td>
+        <td><input type="text" name="linha18_coluna2"></td>
+    </tr>
+    <tr>
+      <td>ID DO ELETRICISTA:</td>
+      <td><input type="text" name="linha18_coluna2"></td>
+  </tr>
+  <tr>
+    <td>DEPOSITO DO ELETRICISTA:</td>
+    <td><input type="text" name="linha18_coluna2"></td>
+</tr>
+    </tbody>
+</table>
+<!-- FIM DA TABELA-->
+<BR>
+<label for="OPÇÕES">ESCOLHA UMA OPÇÃO AO LADO:</label><button id="btnGerarPDF">Gerar PDF</button> OU <button> ENVIAR POR E-MAIL</button>
+<BR>
+<BR>
+<label for="evidencia1">EVIDENCIAS DE CONCLUSÃO:</label>
+    <input type="file" id="evidencia1" name="evidencia1[]" accept="image/*, .pdf" multiple>
+    <br>
+
+  </body>
+</html>
